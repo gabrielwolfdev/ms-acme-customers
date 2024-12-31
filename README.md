@@ -50,7 +50,7 @@ princípios arquiteturais não sejam quebrados.
 
 
 ## Como utilizar
-Basta copiar este projeto para o repositório do seu projeto, renomeando algumas referências e ajustando apropriadamente as configurações de ambiente.
+Basta clonar este repositório e ter o Docker devidamente instalado em sua máquina.
 
 #### Executando localmente:
 
