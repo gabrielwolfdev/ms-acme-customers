@@ -66,7 +66,7 @@ Basta clonar este repositório e ter o Docker devidamente instalado em sua máqu
 curl --location 'http://localhost:8080/customers' \
 --header 'Content-Type: application/json' \
 --data '{
-    "document": "42123773816",
+    "document": "76008005007",
     "firstName": "Gabriel",
     "lastName": "Wolf"
 }'
