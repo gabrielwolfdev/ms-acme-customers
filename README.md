@@ -48,8 +48,6 @@ dependências Web externas, utilizando o _framework_ [WireMock](https://wiremock
 Este projeto utiliza a biblioteca [ArchUnit](https://www.archunit.org/) para garantir que as boas práticas e os 
 princípios arquiteturais não sejam quebrados.
 
-## Clouds disponíveis para Entrega 
-* AKS (Azure Kubernetes Service);
 
 ## Como utilizar
 Basta copiar este projeto para o repositório do seu projeto, renomeando algumas referências e ajustando apropriadamente as configurações de ambiente.
