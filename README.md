@@ -62,7 +62,7 @@ Basta copiar este projeto para o repositório do seu projeto, renomeando algumas
 ## Requisições
 
 ### Criar novo cliente
-```http
+```bash
 curl --location 'http://localhost:8080/customers' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -73,11 +73,11 @@ curl --location 'http://localhost:8080/customers' \
 ```
 
 ### Pesquisar cliente pelo id
-```http
+```bash
 curl --location 'http://localhost:8080/customers/a9b03fd3-ddea-46d4-bc60-47fafc1be7dd'
 ```
 
 ### Remover cliente pelo id
-```http
+```bash
 curl --location --request DELETE 'http://localhost:8080/customers/a9b03fd3-ddea-46d4-bc60-47fafc1be7dd'
 ```
