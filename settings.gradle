@@ -1,0 +1,6 @@
+rootProject.name = 'acme-project'
+
+include "application-layer:application"
+include "application-layer:integration-test"
+include "business-layer:domain"
+include "business-layer:core"
