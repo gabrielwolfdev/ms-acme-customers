@@ -58,3 +58,26 @@ Basta copiar este projeto para o repositório do seu projeto, renomeando algumas
   sudo docker-compose -f docker-compose/docker-compose.yml up
   ./gradlew run  
 ```
+
+## Requisições
+
+### Criar novo cliente
+```http
+curl --location 'http://localhost:8080/customers' \
+--header 'Content-Type: application/json' \
+--data '{
+    "document": "42123773816",
+    "firstName": "Gabriel",
+    "lastName": "Wolf"
+}'
+```
+
+### Pesquisar cliente pelo id
+```http
+curl --location 'http://localhost:8080/customers/a9b03fd3-ddea-46d4-bc60-47fafc1be7dd'
+```
+
+### Remover cliente pelo id
+```http
+curl --location --request DELETE 'http://localhost:8080/customers/a9b03fd3-ddea-46d4-bc60-47fafc1be7dd'
+```
