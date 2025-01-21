@@ -24,4 +24,4 @@ jobs:
           arguments: test
       - uses: gradle/gradle-build-action@v2
         with:
-          arguments: package
+          arguments: application-layer:application:assemble
