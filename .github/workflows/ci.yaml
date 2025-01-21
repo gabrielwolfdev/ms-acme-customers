@@ -19,9 +19,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
-      - uses: gradle/gradle-build-action@v2
+      - name: Test
+        uses: gradle/gradle-build-action@v2
         with:
           arguments: test
-      - uses: gradle/gradle-build-action@v2
+      - name: Assemble Package
+        uses: gradle/gradle-build-action@v2
         with:
           arguments: application-layer:application:assemble
